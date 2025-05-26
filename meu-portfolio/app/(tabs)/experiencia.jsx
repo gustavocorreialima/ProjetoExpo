@@ -1,5 +1,8 @@
-
 import { View, Text, StyleSheet } from "react-native";
+
+export const options = {
+  title: "Experiência Profissional",
+};
 
 export default function Experiencia() {
   return (
@@ -60,5 +63,3 @@ const styles = StyleSheet.create({
     lineHeight: 22,
   },
 });
-
-
